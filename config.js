@@ -44,11 +44,11 @@ const urls = [ // 付款方式列表
     {
         name: '支付宝', // 名称
         ua: 'Alipay', // User-Agent 正则表达式
-        addr: 'https://qr.alipay.com/awa' // 收款码 URL
+        addr: 'https://qr.alipay.com/fkx15943aeop3lxzmgjp21b' // 收款码 URL
     },
     {
         name: '微信',
         ua: 'MicroMessenger\/',
-        img: 'wechat.png' // 使用 img 而非 addr 参数以使用赞赏码
+        addr: 'wxp://f2f0aBQUj38I9p01cZWOOSrtZnYjqJmR8LHEEXN03P-2pMw' // 使用 img 而非 addr 参数以使用赞赏码
     }
 ]
